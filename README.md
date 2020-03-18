@@ -3,6 +3,8 @@
 **排序算法**
 
 * <a href="#01冒泡排序">01冒泡排序</a>
+* * <a href="#01冒泡排序">02选择排序</a>
+* * <a href="#01冒泡排序">03堆排序</a>
 
 ![](4.jpg)
 
@@ -80,6 +82,8 @@ void bubbleSort3(vector<int>& nums, int size) {
 }
 ```
 
+<a id="02选择排序"></a>
+
 ### 02选择排序
 
 > 选择排序和上面冒泡排序的区别就是（冒泡的优化）：
@@ -107,6 +111,8 @@ void selectionSort(vector<int>& nums, int size) {
     }
 }
 ```
+
+<a id="03堆排序"></a>
 
 ### 03堆排序
 
